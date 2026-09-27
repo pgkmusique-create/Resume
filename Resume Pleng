@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plengchanok Meejaroen - Resume</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f9f4;
+            color: #333333;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .resume-container {
+            background-color: #ffffff;
+            width: 100%;
+            max-width: 800px;
+            padding: 50px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+        .header h1 {
+            color: #2e7d32;
+            margin: 0 0 10px 0;
+            font-size: 28px;
+            letter-spacing: 0.5px;
+        }
+        .header p {
+            margin: 4px 0;
+            color: #555555;
+            font-size: 15px;
+        }
+        .section-title {
+            color: #2e7d32;
+            font-size: 20px;
+            border-bottom: 2px solid #c8e6c9;
+            padding-bottom: 5px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        .section-content {
+            background-color: #f1f8f1;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .section-content p {
+            margin: 0 0 10px 0;
+            line-height: 1.6;
+            color: #444444;
+        }
+        .section-content p:last-child {
+            margin-bottom: 0;
+        }
+        ul {
+            margin: 0;
+            padding-left: 20px;
+            color: #444444;
+        }
+        li {
+            margin-bottom: 8px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="resume-container">
+        <!-- Header Information -->
+        <div class="header">
+            <h1>Plengchanok Meejaroen</h1>
+            <p><strong>Nickname:</strong> Pleng</p>
+            <p><strong>Age:</strong> 19 years old</p>
+            <p><strong>Date of Birth:</strong> September 21, 2007</p>
+            <p><strong>Address:</strong> Bangkok, Thailand</p>
+        </div>
+
+        <!-- Profile Statement -->
+        <div class="section-title">Profile Statement</div>
+        <div class="section-content">
+            <p>Hello, my name is Plengchanok Meejaroen. My nickname is Pleng. I am 19 years old and currently studying at the University of the Thai Chamber of Commerce.</p>
+            <p>I am a friendly and responsible person who enjoys learning new things and meeting new people. I am creative and always eager to participate in activities and embrace new experiences. My favorite color is green, as I believe it brings me good luck 💚</p>
+        </div>
+
+        <!-- Work Experience -->
+        <div class="section-title">Work Experience</div>
+        <div class="section-content">
+            <ul>
+                <li>Worked as a part-time employee.</li>
+                <li>Participated in volunteer activities.</li>
+                <li>Joined various activities and events.</li>
+                <li>Developed teamwork and communication skills.</li>
+            </ul>
+        </div>
+
+        <!-- Education -->
+        <div class="section-title">Education</div>
+        <div class="section-content">
+            <p><strong>University of the Thai Chamber of Commerce</strong></p>
+            <p>Currently studying at university in Bangkok, Thailand.</p>
+        </div>
+
+        <!-- Interests and Hobbies -->
+        <div class="section-title">Interests and Hobbies</div>
+        <div class="section-content">
+            <ul>
+                <li>Participating in volunteer activities</li>
+                <li>Attending various events and activities</li>
+                <li>Learning new things</li>
+                <li>Collaborating with others</li>
+                <li>Writing fiction</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
